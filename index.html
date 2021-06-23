@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="style.css" > 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Binary-Decimal-Hexadeximal <span id="converter">Converter</span> </h1>
+        <div id="widget">
+          
+           
+
+                <label for="number">Type your number</label>
+                <input type="text" id="number" required>
+                <label for="from">From :</label>
+                <select name="from" id="from">
+                    <option value="Bin">Binary</option>
+                    <option value="Dec">Decimal</option>
+                    <option value="Hex">Hexadecimal</option>
+                </select>
+                
+                <label for="to">To :</label>
+                <select name="to" id="to">
+                    <option value="Bin">Binary</option>
+                    <option value="Dec">Decimal</option>
+                    <option value="Hex">Hexadecimal</option>
+                </select>
+                <div id="btn">
+
+                    <a href="#" class="myButton">Convert</a>
+                </div>
+    
+                <div id="output">- </div>
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
